@@ -2,7 +2,7 @@
 /**
  * Classic Editor
  *
- * Plugin Name: Classic Editor D3sparza 
+ * Plugin Name: Classic Editor
  * Plugin URI:  https://wordpress.org/plugins/classic-editor/
  * Description: Enables the WordPress classic editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports the older plugins that extend this screen.
  * Version:     1.6.2
