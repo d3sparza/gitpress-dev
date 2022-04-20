@@ -970,3 +970,5 @@ class Classic_Editor {
 add_action( 'plugins_loaded', array( 'Classic_Editor', 'init_actions' ) );
 
 endif;
+
+#add comment 
