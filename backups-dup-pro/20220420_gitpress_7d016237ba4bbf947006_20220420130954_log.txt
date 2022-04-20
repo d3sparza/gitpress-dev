@@ -1,0 +1,126 @@
+********************************************************************************
+********************************************************************************
+DUPLICATOR PRO PACKAGE-LOG: 2022-04-20 13:10:08
+NOTICE: Do NOT post to public sites or forums 
+PACKAGE CREATION START
+********************************************************************************
+********************************************************************************
+VERSION:	4.0.6.2
+WORDPRESS:	5.9.3
+PHP INFO:	7.4.21 | SAPI: apache2handler
+SERVER:		Apache/2.4.46 (Unix) mod_fastcgi/mod_fastcgi-SNAP-0910052141 PHP/7.4.21 OpenSSL/1.0.2u mod_wsgi/3.5 Python/2.7.13 
+ARCHITECTURE:	64-bit 
+CLIENT KICKOFF: off 
+PHP TIME LIMIT: [7200] not allowed 
+PHP MAX MEMORY: 4294967296 (512M default) 
+RUN TYPE:	Manual
+MEMORY STACK:	2MB
+ARCHIVE ENGINE: Shell Zip
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP + CHUNKING (query size limit - 131072 )
+
+TABLES: total: 14 | filtered:0 | create:14
+REWIND DATABASE ITERATOR
+INSERT ROWS TABLE[INDEX:0] gitwp_users NUM ROWS: 1
+REWIND DATABASE ITERATOR
+INSERT ROWS TABLE[INDEX:0] gitwp_users NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:1] gitwp_usermeta NUM ROWS: 18
+INSERT ROWS TABLE[INDEX:2] gitwp_commentmeta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:3] gitwp_comments NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:4] gitwp_duplicator_pro_entities NUM ROWS: 5
+INSERT ROWS TABLE[INDEX:5] gitwp_duplicator_pro_packages NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:6] gitwp_links NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:7] gitwp_options NUM ROWS: 167
+INSERT ROWS TABLE[INDEX:8] gitwp_postmeta NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:9] gitwp_posts NUM ROWS: 4
+INSERT ROWS TABLE[INDEX:10] gitwp_termmeta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:11] gitwp_terms NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:12] gitwp_term_relationships NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:13] gitwp_term_taxonomy NUM ROWS: 1
+SQL FILE SIZE CHECK OK, SIZE: 1012561
+SQL CREATED: 20220420_gitpress_7d016237ba4bbf947006_20220420130954_database.sql
+SQL FILE SIZE: 988.83KB
+SQL FILE TIME: 2022-04-20 13:10:09
+SQL RUNTIME: 0.807 sec.
+MEMORY STACK: 2MB
+
+********************************************************************************
+ARCHIVE  Type=ZIP Mode=Shell
+********************************************************************************
+ARCHIVE DIR:  /Volumes/OpenliveIT/servers/gitpress.dev
+ARCHIVE FILE: 20220420_gitpress_7d016237ba4bbf947006_20220420130954_archive.zip
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	101.01MB
+STATS:	Dirs 1,085 | Files 10,858 | Total 11,943
+COMPRESSED SIZE: 49.19MB
+ARCHIVE RUNTIME: 21.131 sec.
+MEMORY STACK: 4MB
+CHECK FILES Array
+(
+    [0] => dup-installer/api/class.api.php
+    [1] => dup-installer/assets/index.php
+    [2] => dup-installer/classes/index.php
+    [3] => dup-installer/ctrls/index.php
+    [4] => dup-installer/src/Utils/Autoloader.php
+    [5] => dup-installer/templates/default/page-help.php
+    [6] => dup-installer/main.installer.php
+    [7] => 20220420_gitpress_7d016237ba4bbf947006_20220420130954_installer-backup.php
+    [8] => dup-installer/index.php
+    [9] => dup-installer/libs/Snap/index.php
+    [10] => dup-installer/lib/config/index.php
+    [11] => dup-installer/lib/certificates/index.php
+    [12] => dup-installer/assets/js/duplicator-tooltip.js
+    [13] => dup-installer/assets/js/tippy/index.php
+    [14] => dup-installer/dup-archive__7d01623-20130954.txt
+    [15] => dup-installer/dup-scan__7d01623-20130954.json
+    [16] => dup-installer/dup-scanned-files__7d01623-20130954.txt
+    [17] => dup-installer/dup-scanned-dirs__7d01623-20130954.txt
+    [18] => dup-installer/dup-manual-extract__7d01623-20130954
+    [19] => dup-installer/dup-database__7d01623-20130954.sql
+)
+
+Executing extra count string unzip -Z1 '/Volumes/OpenliveIT/servers/gitpress.dev/wp-content/backups-dup-pro/tmp/20220420_gitpress_7d016237ba4bbf947006_20220420130954_archive.zip' | grep '^\(dup-installer/api/class.api.php\|dup-installer/assets/index.php\|dup-installer/classes/index.php\|dup-installer/ctrls/index.php\|dup-installer/src/Utils/Autoloader.php\|dup-installer/templates/default/page-help.php\|dup-installer/main.installer.php\|20220420_gitpress_7d016237ba4bbf947006_20220420130954_installer-backup.php\|dup-installer/index.php\|dup-installer/libs/Snap/index.php\|dup-installer/lib/config/index.php\|dup-installer/lib/certificates/index.php\|dup-installer/assets/js/duplicator-tooltip.js\|dup-installer/assets/js/tippy/index.php\|dup-installer/dup-archive__7d01623-20130954.txt\|dup-installer/dup-scan__7d01623-20130954.json\|dup-installer/dup-scanned-files__7d01623-20130954.txt\|dup-installer/dup-scanned-dirs__7d01623-20130954.txt\|dup-installer/dup-manual-extract__7d01623-20130954\|dup-installer/dup-database__7d01623-20130954.sql\)' | wc -l
+
+********************************************************************************
+STORAGE:
+********************************************************************************
+LOCAL: Default, /Volumes/OpenliveIT/servers/gitpress.dev/wp-content/backups-dup-pro
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 988.83KB
+INSTALLER FILE: 71.61KB
+ARCHIVE FILE: 51.52MB 
+EXPECTED FILE/DIRECTORY COUNT: 11,943
+ACTUAL FILE/DIRECTORY COUNT: 11,946
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 23.398 sec.
+PEAK PHP MEMORY USED: 2MB
+DONE PROCESSING => 20220420_gitpress 2022-04-20 13:10:31
+
+-----------------------------------------
+STORAGE PROCESSING THREAD INITIATED
+** LOCAL [Name: Default] [ID: -2] **
+SUCCESS: copied to default location: /Volumes/OpenliveIT/servers/gitpress.dev/wp-content/backups-dup-pro
+-----------------------------------------
+STORAGE PROCESSING THREAD INITIATED
+STORAGE PROCESSING COMPLETED
+
+********************************************************************************
+********************************************************************************
+DUPLICATOR PRO PACKAGE CREATION OR MANUAL STORAGE TRANSFER END: 2022-04-20 13:10:31
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+********************************************************************************
+
